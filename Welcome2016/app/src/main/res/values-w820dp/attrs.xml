@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieView">
+        <attr name="inner_color" format="color"/>
+        <attr name="pie_radius" format="dimension"/>
+        <attr name="inner_circle_radius" format="dimension"/>
+        <attr name="stroke_width" format="integer"/>
+        <attr name="pie_chamfering_angle" format="integer"/>
+        <attr name="inital_color" format="color"/>
+        <attr name="text_size" format="integer"/>
+    </declare-styleable>
+
+</resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gavynzhang.welcome2016.activity.BigDataActivity">
+
+    <include
+        android:id="@+id/title_bigdata"
+        layout="@layout/title_bar"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/bigdata_tab"
+        app:tabTextAppearance="@style/MyTabLayoutTextAppearanceInverse"
+        app:tabIndicatorColor="#68aff4"
+        app:tabSelectedTextColor="#68aff4"
+        app:tabTextColor="#333333"
+        app:tabBackground="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:background="#cccccc"
+        android:layout_width="match_parent"
+        android:layout_height="1px"/>
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/bigdata_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:layout_weight="1"
+        android:background="@android:color/white" />
+
+</LinearLayout>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:textSize="16sp"
+                android:text="重庆江北机场（距离学校约40公里）"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_marginLeft="30px" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案一:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:id="@+id/text_1"
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:text="可乘机场大巴至上清寺后转乘108路公交车至南坪，再转乘346或347路公交车到学校。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案二:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:id="@+id/text_2"
+                    android:textColor="#888888"
+                    android:text="或乘轻轨三号线到南坪，再转乘346或347路公交车到学校。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案三:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:id="@+id/text_3"
+                    android:textColor="#888888"
+                    android:text="直接打车到校费用约为70元。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c9cac1" />
+
+            <TextView
+                android:textSize="16sp"
+                android:text="龙头寺火车站、重庆北站（距离学校约20公里）"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_marginLeft="30px" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案一:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:id="@+id/text_4"
+                    android:textColor="#888888"
+                    android:text="可乘323路或168路公交车至南坪，转乘346或347路公交车至学校。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案二:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:id="@+id/text_5"
+                    android:text="或乘轻轨三号线到南坪，再转乘346或347路公交车到学校。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案三:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:text="直接打车到校费用约40元。"
+                    android:id="@+id/text_6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c9cac1" />
+
+
+            <TextView
+                android:textSize="16sp"
+                android:text="菜园坝火车站、汽车站（距离学校约12公里）"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_marginLeft="30px" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案一:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:id="@+id/text_7"
+                    android:text="可在菜园坝广场乘347路公交车至学校；直接打车到校费用约为25元。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案二:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:id="@+id/text_8"
+                    android:text="直接打车到校费用约为25元。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c9cac1"/>
+
+            <TextView
+                android:textSize="16sp"
+                android:text="朝天门码头（距离学校约9公里"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30px"
+                android:layout_marginLeft="30px" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案一:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:id="@+id/text_9"
+                    android:text="可乘车至南坪后转乘346或347路公交车至学校。"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="方案二:"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30px" />
+                <TextView
+                    android:padding="30px"
+                    android:textColor="#888888"
+                    android:text="直接打车到校费用约为20元。"
+                    android:layout_width="match_parent"
+                    android:id="@+id/text_10"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#c9cac1"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

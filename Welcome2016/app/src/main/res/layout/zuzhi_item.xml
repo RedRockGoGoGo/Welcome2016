@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#eeeeee"
+    android:layout_height="wrap_content">
+    <cn.carbs.android.expandabletextview.library.ExpandableTextView
+        android:id="@+id/xuzhi_title"
+        android:textSize="16sp"
+        android:text="@string/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#eeeeee"
+
+        android:layout_marginLeft="16dp" />
+    <cn.carbs.android.expandabletextview.library.ExpandableTextView
+        android:id="@+id/xuzhi_introduce"
+        android:layout_width="match_parent"
+        android:padding="16dp"
+        android:textColor="#888888"
+        android:background="#eeeeee"
+        android:layout_height="wrap_content"
+        android:text="@string/content"
+        app:etv_MaxLinesOnShrink="100000"
+        />
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.gavynzhang.welcome2016.activity.HomePageActivity">
+
+    <include layout="@layout/title_bar"/>
+    <ImageView
+        android:id="@+id/button_guide"
+        android:src="@drawable/guide"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    <ImageView
+        android:id="@+id/button_bigData"
+        android:src="@drawable/big_data"
+        android:layout_below="@+id/button_guide"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+    <ImageView
+        android:id="@+id/button_demeanour"
+        android:layout_below="@+id/button_bigData"
+        android:src="@drawable/demeanour"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp"/>
+
+</LinearLayout>
